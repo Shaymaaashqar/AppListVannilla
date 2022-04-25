@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" ,initial-scale="1.0" />
+    <link rel="stylesheet" href="styles/list.css" />
+    <script
+      src="https://kit.fontawesome.com/951beee5a8.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>List App Vanilla JS</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-border">
+        <form id="addForm" class="Add">
+          <div class="addLabels">
+            <label id="text1" for="task">Task</label>
+            <label id="text1" for="assignee">Assignee</label>
+          </div>
+
+          <div class="addInputs">
+            <input
+              type="text"
+              id="item1"
+              class="text1"
+              required="required"
+              name="Task"
+              placeholder="Placeholder"
+            />
+            <input
+              type="text"
+              id="item2"
+              class="text1"
+              required="required"
+              name="Assignee"
+              placeholder="Placeholder"
+            />
+          </div>
+
+          <div class="addButton">
+            <input type="submit" id="ADD" class="addAss" value="Add" />
+          </div>
+        </form>
+
+        <form class="searchBorder">
+          <hr class="line" />
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass magnifier"></i>
+            <input class="sch" type="text" id="search" placeholder="search" />
+            <div class="close">
+              <i class="close-icon fas fa-times" id="close-icon"> </i>
+            </div>
+          </div>
+        </form>
+
+        <div class="addDeleteTaskItems" id="addDeleteTaskItems"></div>
+
+        <footer class="workTask" id="workTask">
+          <label id="do1" class="ToDo1" for="todo">ToDo :</label>
+          <div class="todoTasks" id="todoTasks">
+            <label id="do2" name="coutodo" class="ToDo2" for="todo">0</label>
+          </div>
+          <label id="done1" class="Done1" for="done">Done :</label>
+          <div class="doneTasks">
+            <label id="done2" name="coudone" class="Done2" for="done">0</label>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script src="js/listt.js"></script>
+  </body>
+</html>
+<!--<i class="fa-solid fa-trash-can-xmark"></i> -->
+<!-- <li id="items" class="addDeleteTask">
+            <div class="addDeleteLabels">
+              <label id="text1" class="label1" for="task">Task</label>
+              <label id="text2" class="label2" for="assignee">Assignee</label>
+            </div>
+
+            <div class="addDeleteIcons">
+              <i class="fa-solid fa-trash trash"></i>
+              <i
+                class="fa fa-circle-thin check"
+                id="iconn"
+                aria-hidden="true"
+              ></i>
+            </div>
+          </li> 
+        
+        
+        
+         <label id="do1" class="ToDo1" for="todo">ToDo :</label>
+          <div class="todoTasks" id="todoTasks">
+            <label id="do2" class="ToDo2" for="todo"></label>
+          </div>
+          <label id="done1" class="Done1" for="done">Done :</label>
+          <div class="doneTasks">
+            <label id="done2" class="Done2" for="done"></label>
+          </div>
+        
+        
+           <label id="do1" class="ToDo1" for="todo">ToDo :</label>
+          <div class="todoTasks" id="todoTasks">
+            <label id="do2" class="ToDo2" for="todo"></label>
+          </div>
+          <label id="done1" class="Done1" for="done">Done :</label>
+          <div class="doneTasks">
+            <label id="done2" class="Done2" for="done"></label>
+          </div>
+        
+        -->

@@ -1,0 +1,54 @@
+.Add {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+
+  .addLabels {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 5%;
+    #text1 {
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: end;
+      font-size: larger;
+      padding-top: 6px;
+      padding-bottom: 6px;
+    }
+  }
+  .addInputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    .text1 {
+      margin-bottom: 20px;
+      border-color: rgb(110, 101, 101);
+      border-width: 2px;
+      font-size: medium;
+      border-radius: 5px;
+      height: 30px;
+    }
+  }
+  .addButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 20%;
+    margin-bottom: 20px;
+    padding-left: 5%;
+    .addAss {
+      color: rgb(123, 165, 39);
+      text-align: center;
+      cursor: pointer;
+      font-size: 20px;
+      padding: 3px;
+      border-radius: 3px;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.Add {
+  padding-top: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10%;
+}
+
+.Add .addLabels {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  padding-left: 5%;
+}
+
+.Add .addLabels #text1 {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-size: larger;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.Add .addInputs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.Add .addInputs .text1 {
+  margin-bottom: 20px;
+  border-color: #6e6565;
+  border-width: 2px;
+  font-size: medium;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.Add .addButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 20%;
+  margin-bottom: 20px;
+  padding-left: 5%;
+}
+
+.Add .addButton .addAss {
+  color: #7ba527;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 3px;
+}
+/*# sourceMappingURL=Add.css.map */
