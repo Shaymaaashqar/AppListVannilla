@@ -1,0 +1,46 @@
+.addDeleteTaskItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .addDeleteTask {
+    width: 85%;
+    // margin-left:10%;
+    //margin-right:20%;
+    margin: 2% 10%;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .addDeleteLabels {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-left: 20px;
+      .label1 {
+        margin-bottom: 20px;
+      }
+    }
+
+    .addDeleteIcons {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-right: 15px;
+      .trash {
+        font-size: 25px;
+        margin-bottom: 15px;
+      }
+      .check {
+        font-size: 25px;
+      }
+      .fa-circle-check {
+        font-size: 25px;
+      }
+    }
+  }
+}
