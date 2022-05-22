@@ -169,11 +169,11 @@ body {
   justify-content: space-between;
   padding-right: 15px;
 }
-.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .trash {
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .deleteTask {
   font-size: 25px;
   margin-bottom: 15px;
 }
-.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .check {
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .markAsDone {
   font-size: 25px;
 }
 .container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .fa-circle-check {
