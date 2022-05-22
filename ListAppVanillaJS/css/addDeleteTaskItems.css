@@ -1,0 +1,44 @@
+.addDeleteTaskItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.addDeleteTaskItems .addDeleteTask {
+  width: 85%;
+  margin: 2% 10%;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteLabels .label1 {
+  margin-bottom: 20px;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteIcons .deleteTask {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteIcons .markAsDone {
+  font-size: 25px;
+}
+.addDeleteTaskItems .addDeleteTask .addDeleteIcons .fa-circle-check {
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=addDeleteTaskItems.css.map */

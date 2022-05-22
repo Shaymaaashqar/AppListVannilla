@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+}
+
+::placeholder {
+  font-size: 23px;
+  color: #7ba527;
+}
+
+.container {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+  margin: 5px 20% 5px 20%;
+  background: linear-gradient(60deg, #a0a9ab, #ffffff, #94c949);
+}
+.container .box-border {
+  width: 100%;
+  min-width: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-width: 2px 12px 8px 4px;
+  border-color: #7ba527;
+  box-shadow: 4px 14px 10px 6px #525d5d;
+  border-style: solid;
+  min-height: 600px;
+  margin: 30px;
+  padding: 5px;
+}
+.container .box-border .Add {
+  padding-top: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10%;
+}
+.container .box-border .Add .addLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 5%;
+}
+.container .box-border .Add .addLabels > label {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-size: larger;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.container .box-border .Add .addInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container .box-border .Add .addInputs > input {
+  margin-bottom: 20px;
+  border-color: #6e6565;
+  border-width: 2px;
+  font-size: medium;
+  border-radius: 5px;
+  height: 30px;
+}
+.container .box-border .Add .addButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 20%;
+  margin-bottom: 20px;
+  padding-left: 5%;
+}
+.container .box-border .Add .addButton .addAss {
+  color: #7ba527;
+  text-align: center;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 3px;
+  border-radius: 3px;
+}
+.container .box-border .searchBorder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.container .box-border .searchBorder .line {
+  margin: 2% 10%;
+  width: 85%;
+  color: black;
+  height: 2px;
+  margin-bottom: 10px;
+  background-color: black;
+}
+.container .box-border .searchBorder .search {
+  margin: 2% 10%;
+  width: 85%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.container .box-border .searchBorder .search .magnifier {
+  position: absolute;
+  z-index: 1;
+  font-size: 20px;
+  color: #7ba527;
+  padding: 15px;
+  padding-left: 20px;
+}
+.container .box-border .searchBorder .search .sch {
+  padding: 0px 5px 0px 40px;
+  width: 100%;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: navajowhite;
+  border-top: 6px solid #7ba527;
+  border-left: 10px solid #7ba527;
+  border-bottom: 6px solid #7ba527;
+  border-right: 10px solid #7ba527;
+}
+.container .box-border .searchBorder .search .close {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+.container .box-border .searchBorder .search .close .fa-times {
+  margin-right: 2.5%;
+  position: absolute;
+  z-index: 1;
+  font-size: 50px;
+  color: #0c0c0c;
+}
+.container .box-border .addDeleteTaskItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask {
+  width: 85%;
+  margin: 2% 10%;
+  border-style: solid;
+  border-width: 1px;
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteLabels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteLabels .label1 {
+  margin-bottom: 20px;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .deleteTask {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .markAsDone {
+  font-size: 25px;
+}
+.container .box-border .addDeleteTaskItems .addDeleteTask .addDeleteIcons .fa-circle-check {
+  font-size: 25px;
+}
+.container .box-border .workTask {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.container .box-border .workTask .todoTasks {
+  margin-right: 25%;
+}
+
+/*# sourceMappingURL=list.css.map */
